@@ -7,15 +7,23 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
+struct ContentView: View
+{
+    var body: some View
+    {
+        VStack
+        {
+            Button("    Display Player Statistics    ")
+            {
+            }.buttonStyle(NeumorphicButtonStyle()).foregroundColor(.white).padding()
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
+struct ContentView_Previews: PreviewProvider
+{
+    static var previews: some View
+    {
         ContentView()
     }
 }
