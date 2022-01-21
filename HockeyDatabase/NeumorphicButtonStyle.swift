@@ -1,9 +1,8 @@
 //
 //  NeumorphicButtonStyle.swift
-//  HockeyInfo-SwiftUI
+//  HockeyDatabase
 //
-//  Created by Larry Burris on 5/12/20.
-//  Copyright © 2020 Larry Burris. All rights reserved.
+//  Created by Larry Burris on 1/15/22.
 //
 import SwiftUI
 

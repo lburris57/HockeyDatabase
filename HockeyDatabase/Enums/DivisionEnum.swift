@@ -1,9 +1,8 @@
 //
 //  DivisionEnum.swift
-//  Hockey Info
+//  HockeyDatabase
 //
-//  Created by Larry Burris on 12/12/18.
-//  Copyright © 2018 Larry Burris. All rights reserved.
+//  Created by Larry Burris on 1/15/22.
 //
 import Foundation
 

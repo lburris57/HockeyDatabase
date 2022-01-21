@@ -1,14 +1,14 @@
 //
 //  ScheduleView.swift
-//  CalendarTest
+//  HockeyDatabase
 //
-//  Created by Larry Burris on 1/21/21.
+//  Created by Larry Burris on 1/15/22.
 //
 import SwiftUI
 
 struct ScheduleView: View
 {
-    @State private var dateValue = Date()
+    @State var dateValue = Date()
     
     var body: some View
     {
@@ -17,7 +17,7 @@ struct ScheduleView: View
             VStack(alignment: .leading, spacing: 0)
             {
                 DatePicker("Choose a date:",
-                        selection: $dateValue,/* in: ...Date(),*/
+                        selection: $dateValue,
                         displayedComponents: .date)
                         .datePickerStyle(GraphicalDatePickerStyle())
                 

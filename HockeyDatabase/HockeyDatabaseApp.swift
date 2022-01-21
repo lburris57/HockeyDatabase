@@ -4,7 +4,6 @@
 //
 //  Created by Larry Burris on 1/15/22.
 //
-
 import SwiftUI
 
 @main
@@ -14,11 +13,11 @@ struct HockeyDatabaseApp: App
     {
         WindowGroup
         {
-            ScheduleView()
-                .onAppear
-                {
-                    UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
-                }
+            ScoresView()
+            .onAppear
+            {
+                UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+            }
         }
     }
 }

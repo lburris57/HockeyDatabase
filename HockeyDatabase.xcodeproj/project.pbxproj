@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		91021BC727937C6A0047DFAA /* HockeyDatabaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91021BC627937C6A0047DFAA /* HockeyDatabaseApp.swift */; };
 		91021BC927937C6A0047DFAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91021BC827937C6A0047DFAA /* ContentView.swift */; };
-		91021BCB27937C6B0047DFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91021BCA27937C6B0047DFAA /* Assets.xcassets */; };
 		91021BCE27937C6B0047DFAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91021BCD27937C6B0047DFAA /* Preview Assets.xcassets */; };
 		91021BD627937D0E0047DFAA /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91021BD527937D0E0047DFAA /* Season.swift */; };
 		91021BD82793AE490047DFAA /* Database Models in Resources */ = {isa = PBXBuildFile; fileRef = 91021BD72793AE490047DFAA /* Database Models */; };
-		91021BDA2793AF6C0047DFAA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91021BD92793AF6C0047DFAA /* Constants.swift */; };
 		91021BDD2793B9E10047DFAA /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 91021BDC2793B9E10047DFAA /* Realm */; };
 		91021BDF2793B9E10047DFAA /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 91021BDE2793B9E10047DFAA /* RealmSwift */; };
 		91021BE82793C9C40047DFAA /* Utils in Resources */ = {isa = PBXBuildFile; fileRef = 91021BE72793C9C40047DFAA /* Utils */; };
@@ -25,17 +23,19 @@
 		91021BF727991A0B0047DFAA /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91021BF627991A0B0047DFAA /* NeumorphicButtonStyle.swift */; };
 		91021BF9279926750047DFAA /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91021BF8279926750047DFAA /* ScheduleView.swift */; };
 		91021BFB27992D860047DFAA /* ScheduledGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91021BFA27992D860047DFAA /* ScheduledGame.swift */; };
+		91021C04279A70960047DFAA /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91021C03279A70960047DFAA /* ScoresView.swift */; };
+		91021C08279A753C0047DFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91021C07279A753C0047DFAA /* Assets.xcassets */; };
+		91021C0A279A761B0047DFAA /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91021C09279A761B0047DFAA /* Venue.swift */; };
+		91021C0C279A765C0047DFAA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91021C0B279A765C0047DFAA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		91021BC327937C6A0047DFAA /* HockeyDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HockeyDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91021BC627937C6A0047DFAA /* HockeyDatabaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HockeyDatabaseApp.swift; sourceTree = "<group>"; };
 		91021BC827937C6A0047DFAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		91021BCA27937C6B0047DFAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91021BCD27937C6B0047DFAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91021BD527937D0E0047DFAA /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
 		91021BD72793AE490047DFAA /* Database Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Database Models"; sourceTree = "<group>"; };
-		91021BD92793AF6C0047DFAA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		91021BE72793C9C40047DFAA /* Utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utils; sourceTree = "<group>"; };
 		91021BE92793CADD0047DFAA /* Error Enums */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Error Enums"; sourceTree = "<group>"; };
 		91021BEB2793CC690047DFAA /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
@@ -45,6 +45,11 @@
 		91021BF627991A0B0047DFAA /* NeumorphicButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtonStyle.swift; sourceTree = "<group>"; };
 		91021BF8279926750047DFAA /* ScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		91021BFA27992D860047DFAA /* ScheduledGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledGame.swift; sourceTree = "<group>"; };
+		91021BFD2799462C0047DFAA /* TeamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamManager.swift; sourceTree = "<group>"; };
+		91021C03279A70960047DFAA /* ScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresView.swift; sourceTree = "<group>"; };
+		91021C07279A753C0047DFAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../HockeyInfoApp/HockeyInfoApp/Assets.xcassets; sourceTree = "<group>"; };
+		91021C09279A761B0047DFAA /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		91021C0B279A765C0047DFAA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,20 +84,20 @@
 		91021BC527937C6A0047DFAA /* HockeyDatabase */ = {
 			isa = PBXGroup;
 			children = (
+				91021C0B279A765C0047DFAA /* Constants.swift */,
+				91021BC627937C6A0047DFAA /* HockeyDatabaseApp.swift */,
 				91021BF627991A0B0047DFAA /* NeumorphicButtonStyle.swift */,
+				91021C02279946F60047DFAA /* Views */,
+				91021BFC2799462C0047DFAA /* Managers */,
 				91021BF42799191E0047DFAA /* Button Styles */,
 				91021BF1279670870047DFAA /* Logging */,
 				91021BED2793CC970047DFAA /* Enums */,
 				91021BEB2793CC690047DFAA /* Extensions */,
 				91021BE92793CADD0047DFAA /* Error Enums */,
 				91021BE72793C9C40047DFAA /* Utils */,
-				91021BD92793AF6C0047DFAA /* Constants.swift */,
 				91021BD72793AE490047DFAA /* Database Models */,
 				91021BD427937CD10047DFAA /* Models */,
-				91021BC627937C6A0047DFAA /* HockeyDatabaseApp.swift */,
-				91021BF8279926750047DFAA /* ScheduleView.swift */,
-				91021BC827937C6A0047DFAA /* ContentView.swift */,
-				91021BCA27937C6B0047DFAA /* Assets.xcassets */,
+				91021C07279A753C0047DFAA /* Assets.xcassets */,
 				91021BCC27937C6B0047DFAA /* Preview Content */,
 			);
 			path = HockeyDatabase;
@@ -109,6 +114,7 @@
 		91021BD427937CD10047DFAA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				91021C09279A761B0047DFAA /* Venue.swift */,
 				91021BD527937D0E0047DFAA /* Season.swift */,
 				91021BFA27992D860047DFAA /* ScheduledGame.swift */,
 			);
@@ -121,6 +127,24 @@
 				91021BF22796709D0047DFAA /* Log.swift */,
 			);
 			path = Logging;
+			sourceTree = "<group>";
+		};
+		91021BFC2799462C0047DFAA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				91021BFD2799462C0047DFAA /* TeamManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		91021C02279946F60047DFAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91021BF8279926750047DFAA /* ScheduleView.swift */,
+				91021BC827937C6A0047DFAA /* ContentView.swift */,
+				91021C03279A70960047DFAA /* ScoresView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +219,7 @@
 				91021BE82793C9C40047DFAA /* Utils in Resources */,
 				91021BF52799191E0047DFAA /* Button Styles in Resources */,
 				91021BEA2793CADD0047DFAA /* Error Enums in Resources */,
-				91021BCB27937C6B0047DFAA /* Assets.xcassets in Resources */,
+				91021C08279A753C0047DFAA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +231,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				91021BC927937C6A0047DFAA /* ContentView.swift in Sources */,
+				91021C0A279A761B0047DFAA /* Venue.swift in Sources */,
 				91021BFB27992D860047DFAA /* ScheduledGame.swift in Sources */,
 				91021BF727991A0B0047DFAA /* NeumorphicButtonStyle.swift in Sources */,
 				91021BD627937D0E0047DFAA /* Season.swift in Sources */,
+				91021C0C279A765C0047DFAA /* Constants.swift in Sources */,
+				91021C04279A70960047DFAA /* ScoresView.swift in Sources */,
 				91021BF9279926750047DFAA /* ScheduleView.swift in Sources */,
 				91021BF32796709D0047DFAA /* Log.swift in Sources */,
 				91021BC727937C6A0047DFAA /* HockeyDatabaseApp.swift in Sources */,
-				91021BDA2793AF6C0047DFAA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

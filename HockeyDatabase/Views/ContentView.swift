@@ -4,7 +4,6 @@
 //
 //  Created by Larry Burris on 1/15/22.
 //
-
 import SwiftUI
 
 struct ContentView: View
@@ -15,7 +14,9 @@ struct ContentView: View
         {
             Button("    Display Player Statistics    ")
             {
-            }.buttonStyle(NeumorphicButtonStyle()).foregroundColor(.white).padding()
+                Log.info("Button was tapped!")
+            }
+            .buttonStyle(NeumorphicButtonStyle()).foregroundColor(.white).padding()
         }
     }
 }
