@@ -87,6 +87,7 @@
 				91021C0B279A765C0047DFAA /* Constants.swift */,
 				91021BC627937C6A0047DFAA /* HockeyDatabaseApp.swift */,
 				91021BF627991A0B0047DFAA /* NeumorphicButtonStyle.swift */,
+				91021C07279A753C0047DFAA /* Assets.xcassets */,
 				91021C02279946F60047DFAA /* Views */,
 				91021BFC2799462C0047DFAA /* Managers */,
 				91021BF42799191E0047DFAA /* Button Styles */,
@@ -97,7 +98,6 @@
 				91021BE72793C9C40047DFAA /* Utils */,
 				91021BD72793AE490047DFAA /* Database Models */,
 				91021BD427937CD10047DFAA /* Models */,
-				91021C07279A753C0047DFAA /* Assets.xcassets */,
 				91021BCC27937C6B0047DFAA /* Preview Content */,
 			);
 			path = HockeyDatabase;
