@@ -19,7 +19,7 @@ struct ScoresView: View
                 DatePicker("Choose a date:",
                         selection: $dateValue,
                         displayedComponents: .date)
-                        .datePickerStyle(GraphicalDatePickerStyle())
+                    .datePickerStyle(.graphical)
                 
                 HStack
                 {
@@ -72,7 +72,7 @@ struct ScoresView: View
                                 {
                                     Spacer(minLength: 225)
                                     
-                                    Text("F/OT").bold()
+                                    Text(PeriodEnum.overtime.rawValue).bold()
                                     NavigationLink("", destination: ScheduleView())
                                 }
                             }

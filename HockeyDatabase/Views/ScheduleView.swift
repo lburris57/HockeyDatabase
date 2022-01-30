@@ -19,13 +19,13 @@ struct ScheduleView: View
                 DatePicker("Choose a date:",
                         selection: $dateValue,
                         displayedComponents: .date)
-                        .datePickerStyle(GraphicalDatePickerStyle())
+                    .datePickerStyle(.graphical)
                 
                 Text("Scheduled games for \(formatDate(dateValue))")
                     .font(.subheadline).bold()
                     .padding(.horizontal)
                     .padding(.bottom)
-                
+                                
                 ScrollView(showsIndicators: false)
                 {
                     ForEach(0..<10)
